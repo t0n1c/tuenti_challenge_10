@@ -1,0 +1,19 @@
+The code is inside the code!
+so there's must some some type of code somewhere
+I checked the html of the challenge hmmm it seems everything is fine the 
+javascript and html does not look like if someone was trying to hide some 
+code. Coments?? nahhh Another web resources nahh yet  occam's razor principle
+it seems there is some white background png image in there.
+
+So" I run "head image.png"
+
+it says "Comment:hello challenger the code is not in here" so for a moment I was hopeless but hey!! I did not try "tail image.png" and i see somethoing familiar ... Brainfuck code!
+
+++++++++++[>++++++>+++++++>++++++++>+++>+<<<<<-]>>>++++.<++.---.>>++.<<--.>-----.<+.+.>>.<<++++.>++++.<<--.>>>.<++++.<++++++.---.+++.---.+++.>>+..
+
+
+So i find an interpreter online and i run that And i get 
+
+THE CODE IS: WOLOLO!!
+
+and thats my write up

@@ -1,0 +1,104 @@
+SF-Port2003-TCP:
+V=7.01%
+I=7%
+D=4/28%
+Time=5EA76778%
+P=x86_64-pc-linux-gnu%
+r(NULL, 60, "\.\.#\.#\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\n---\x20Quick\x20
+there\x20is\x20no\x20time\x20to\x20lose!\x20The\x20princess\x20is\x20in
+\x20danger\x20---\n")%
+
+r(GenericLines,9D,"\.\.#\.#\n\.#\.\.#\n\.\.KP#\n\
+.#\.\.#\n\.\.###\n---\x20Quick\x20there\x20is\x20no\x20time\x20to\x20lo
+se!\x20The\x20princess\x20is\x20in\x20danger\x20---\n---\x20Oops!\x20In
+valid\x20command\x20---\n\.\.#\.#\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###
+\n\n")%
+
+r(GetRequest,9D,"\.\.#\.#\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\
+n---\x20Quick\x20there\x20is\x20no\x20time\x20to\x20lose!\x20The\x20pri
+ncess\x20is\x20in\x20danger\x20---\n---\x20Oops!\x20Invalid\x20command\
+x20---\n\.\.#\.#\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\n\n")%
+
+r(HTTPOptions,9D,"\.\.#\.#\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\n---\x20Quick\x2
+0there\x20is\x20no\x20time\x20to\x20lose!\x20The\x20princess\x20is\x20i
+n\x20danger\x20---\n---\x20Oops!\x20Invalid\x20command\x20---\n\.\.#\.#
+\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\n\n")%
+
+r(RTSPRequest,9D,"\.\.#\.#
+\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\n---\x20Quick\x20there\x20is\x20
+no\x20time\x20to\x20lose!\x20The\x20princess\x20is\x20in\x20danger\x20-
+--\n---\x20Oops!\x20Invalid\x20command\x20---\n\.\.#\.#\n\.#\.\.#\n\.\.
+KP#\n\.#\.\.#\n\.\.###\n\n")%
+
+r(RPCCheck,60,"\.\.#\.#\n\.#\.\.#\n\.\.KP#
+\n\.#\.\.#\n\.\.###\n---\x20Quick\x20there\x20is\x20no\x20time\x20to\x2
+0lose!\x20The\x20princess\x20is\x20in\x20danger\x20---\n")%
+
+r(DNSVersionBindReq,9D,"\.\.#\.#\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\n---\x20Quic
+k\x20there\x20is\x20no\x20time\x20to\x20lose!\x20The\x20princess\x20is\
+x20in\x20danger\x20---\n---\x20Oops!\x20Invalid\x20command\x20---\n\.\.
+#\.#\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\n\n")%
+
+r(DNSStatusRequest,9D,
+"\.\.#\.#\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\n---\x20Quick\x20there\
+x20is\x20no\x20time\x20to\x20lose!\x20The\x20princess\x20is\x20in\x20da
+nger\x20---\n---\x20Oops!\x20Invalid\x20command\x20---\n\.\.#\.#\n\.#\.
+\.#\n\.\.KP#\n\.#\.\.#\n\.\.###\n\n")%
+
+r(Help,9D,"\.\.#\.#\n\.#\.\.#\n\.
+\.KP#\n\.#\.\.#\n\.\.###\n---\x20Quick\x20there\x20is\x20no\x20time\x20
+to\x20lose!\x20The\x20princess\x20is\x20in\x20danger\x20---\n---\x20Oop
+s!\x20Invalid\x20command\x20---\n\.\.#\.#\n\.#\.\.#\n\.\.KP#\n\.#\.\.#\
+n\.\.###\n\n");
+
+
+
+
+curl  steam-origin.contest.tuenti.net:2003
+
+..#.#
+.#..#
+..KP#
+.#..#
+..###
+--- Quick there is no time to lose! The princess is in danger ---
+--- Oops! Invalid command ---
+..#.#
+.#..#
+..KP#
+.#..#
+..###
+
+--- Oops! Invalid command ---
+..#.#
+.#..#
+..KP#
+.#..#
+..###
+
+PORT      STATE  SERVICE        VERSION
+80/tcp    closed http
+443/tcp   closed https
+2003/tcp  open   finger?
+| finger: ..#.#
+| .#..#
+| ..KP#
+| .#..#
+| ..###
+| --- Quick there is no time to lose! The princess is in danger ---
+| --- Oops! Invalid command ---
+| ..#.#
+| .#..#
+| ..KP#
+| .#..#
+| ..###
+|_
+2121/tcp  closed ccproxy-ftp
+2222/tcp  closed EtherNetIP-1
+4242/tcp  closed vrml-multi-use
+6969/tcp  closed acmsoda
+8001/tcp  closed vcom-tunnel
+8002/tcp  closed teradataordbms
+8080/tcp  closed http-proxy
+8443/tcp  closed https-alt
+9876/tcp  open   http           nginx 1.17.8

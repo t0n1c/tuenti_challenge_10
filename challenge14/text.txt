@@ -1,0 +1,8 @@
+ROUND 360: 6 -> ACCEPTED {servers: [4,6,9,12,15,16,19,21], secret_owner: 16}
+ROUND 360: 9 -> LEARN {servers: [4,6,9,12,15,16,19,21], secret_owner: 16} (ROUND FINISHED)
+ROUND 361: 15 -> ACCEPTED {servers: [4,6,9,12,15,16,19,21], secret_owner: 15}
+ROUND 361: 4 -> ACCEPTED {servers: [4,6,9,12,15,16,19,21], secret_owner: 15}
+ROUND 361: 6 -> ACCEPTED {servers: [4,6,9,12,15,16,19,21], secret_owner: 15}
+ROUND 361: 12 -> ACCEPTED {servers: [4,6,9,12,15,16,19,21], secret_owner: 15}
+ROUND 361: 21 -> ACCEPTED {servers: [4,6,9,12,15,16,19,21], secret_owner: 15}
+ROUND 361: 9 -> LEARN {servers: [4,6,9,12,15,16,19,21], secret_owner: 15} (ROUND FINISHED)
